@@ -118,7 +118,8 @@ class _MyTasksWidgetState extends State<MyTasksWidget> {
                               child: SizedBox(
                                 width: 50,
                                 height: 50,
-                                child: CircularProgressIndicator(),
+                                child: CircularProgressIndicator(
+                                    color: FlutterFlowTheme.primaryColor),
                               ),
                             );
                           }

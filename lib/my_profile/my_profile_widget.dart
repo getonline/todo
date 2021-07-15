@@ -38,7 +38,8 @@ class _MyProfileWidgetState extends State<MyProfileWidget> {
             child: SizedBox(
               width: 50,
               height: 50,
-              child: CircularProgressIndicator(),
+              child: CircularProgressIndicator(
+                  color: FlutterFlowTheme.primaryColor),
             ),
           );
         }
